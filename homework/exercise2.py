@@ -21,3 +21,18 @@ for num in range(2, 101):
                 break
         else:
             print(num)
+
+
+# In class method:
+
+# prime_numbers = []
+# for num in range(1, 100, 2):
+#     prime = True
+#     for divisor in range(2, num):
+#         if num % divisor == 0:
+#             prime = False
+#             break
+#         if prime == True:
+#             prime_numbers.append(num)
+
+# print(prime_numbers)
